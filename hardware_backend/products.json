@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Cordless Drill",
+        "price": 129.99,
+        "category": "power-tools",
+        "description": "High-performance cordless drill with variable speed control.",
+        "stock": 15,
+        "imageUrl": "https://images.pexels.com/photos/1249610/pexels-photo-1249610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Circular Saw",
+        "price": 199.99,
+        "category": "power-tools",
+        "description": "Precision circular saw for cutting wood and other materials.",
+        "stock": 10,
+        "imageUrl": "https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Impact Driver",
+        "price": 159.99,
+        "category": "power-tools",
+        "description": "Compact impact driver for tight spaces and high torque applications.",
+        "stock": 8,
+        "imageUrl": "https://images.pexels.com/photos/6790937/pexels-photo-6790937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Angle Grinder",
+        "price": 89.99,
+        "category": "power-tools",
+        "description": "Versatile angle grinder for cutting, grinding, and polishing.",
+        "stock": 12,
+        "imageUrl": "https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Claw Hammer",
+        "price": 19.99,
+        "category": "hand-tools",
+        "description": "Durable claw hammer for driving nails and demolition tasks.",
+        "stock": 25,
+        "imageUrl": "https://images.pexels.com/photos/19582317/pexels-photo-19582317/free-photo-of-hardware.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Adjustable Wrench",
+        "price": 14.99,
+        "category": "hand-tools",
+        "description": "Versatile adjustable wrench for various bolt sizes.",
+        "stock": 30,
+        "imageUrl": "https://images.pexels.com/photos/7019374/pexels-photo-7019374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Screwdriver Set",
+        "price": 29.99,
+        "category": "hand-tools",
+        "description": "Comprehensive screwdriver set for all screw types.",
+        "stock": 20,
+        "imageUrl": "https://images.pexels.com/photos/5583106/pexels-photo-5583106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Tape Measure",
+        "price": 9.99,
+        "category": "hand-tools",
+        "description": "Reliable tape measure with metric and imperial units.",
+        "stock": 40,
+        "imageUrl": "https://images.pexels.com/photos/3143082/pexels-photo-3143082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Cement Bags",
+        "price": 7.99,
+        "category": "building-materials",
+        "description": "High-quality cement for all types of construction work.",
+        "stock": 50,
+        "imageUrl": "https://images.pexels.com/photos/9226958/pexels-photo-9226958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Brick Pack",
+        "price": 0.75,
+        "category": "building-materials",
+        "description": "Durable construction bricks for masonry projects.",
+        "stock": 500,
+        "imageUrl": "https://media.istockphoto.com/id/622800884/photo/close-up-of-industrial-bricklayer-installing-bricks-on-construction-site.jpg?s=1024x1024&w=is&k=20&c=X-uZf8DP5WgTKhN-VhQeJxJM-58EnyRHAaZaZHjG6ao="
+    },
+    {
+        "name": "Lumber Pack",
+        "price": 99.99,
+        "category": "building-materials",
+        "description": "Premium quality lumber for framing and construction.",
+        "stock": 100,
+        "imageUrl": "https://images.pexels.com/photos/29511306/pexels-photo-29511306/free-photo-of-stacked-timber-logs-in-a-park-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Rebar",
+        "price": 6.50,
+        "category": "building-materials",
+        "description": "Steel rebar for reinforcing concrete structures.",
+        "stock": 300,
+        "imageUrl": "https://images.pexels.com/photos/46167/iron-rods-reinforcing-bars-rods-steel-bars-46167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Safety Goggles",
+        "price": 12.99,
+        "category": "safety-equipment",
+        "description": "Protective goggles to shield eyes from debris and dust.",
+        "stock": 20,
+        "imageUrl": "https://images.pexels.com/photos/8960996/pexels-photo-8960996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Hard Hat",
+        "price": 24.99,
+        "category": "safety-equipment",
+        "description": "Durable hard hat for head protection on construction sites.",
+        "stock": 18,
+        "imageUrl": "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Ear Protection Muffs",
+        "price": 19.99,
+        "category": "safety-equipment",
+        "description": "Noise-canceling ear muffs for hearing protection.",
+        "stock": 15,
+        "imageUrl": "https://images.pexels.com/photos/5202427/pexels-photo-5202427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Safety Gloves",
+        "price": 9.99,
+        "category": "safety-equipment",
+        "description": "Protective gloves for hand safety during heavy-duty tasks.",
+        "stock": 50,
+        "imageUrl": "https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Nail Gun",
+        "price": 249.99,
+        "category": "power-tools",
+        "description": "Heavy-duty nail gun for rapid and precise nailing.",
+        "stock": 6,
+        "imageUrl": "https://images.pexels.com/photos/4792494/pexels-photo-4792494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Handsaw",
+        "price": 12.99,
+        "category": "hand-tools",
+        "description": "Traditional handsaw for cutting wood with precision.",
+        "stock": 30,
+        "imageUrl": "https://images.pexels.com/photos/9992215/pexels-photo-9992215.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Concrete Mixer",
+        "price": 799.99,
+        "category": "building-materials",
+        "description": "Efficient concrete mixer for large construction projects.",
+        "stock": 3,
+        "imageUrl": "https://images.pexels.com/photos/19665533/pexels-photo-19665533/free-photo-of-concrete-mixer-at-construction-site.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Work Boots",
+        "price": 49.99,
+        "category": "safety-equipment",
+        "description": "Steel-toed work boots for ultimate foot protection.",
+        "stock": 20,
+        "imageUrl": "https://images.pexels.com/photos/162540/career-firefighter-relaxing-job-162540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]
