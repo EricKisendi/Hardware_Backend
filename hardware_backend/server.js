@@ -6,6 +6,8 @@ const cors = require('cors');
 const { seedDatabase } = require('./seed'); // Import seed logic
 const connectDB = require('./config/db');
 const productRoutes = require('./routes/productRoutes');
+const adminRoutes = require('./routes/adminRoutes');
+const authRoutes = require('./routes/authRoutes'); // Import the routes file
 
 const notFoundMiddleware = require('./middlewares/not-found');
 const errorMiddleware = require('./middlewares/error-handler');
@@ -24,6 +26,9 @@ app.use(cors());
 
 // Route handling
 app.use('/api/products', productRoutes);
+app.use('/api/admin', adminRoutes);
+// Use auth routes
+app.use('/api/user', authRoutes);
 
 // Error handling middleware (should come last)
 app.use(notFoundMiddleware);
