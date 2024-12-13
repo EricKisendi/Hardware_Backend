@@ -9,6 +9,7 @@ const cartRoutes = require('./routes/cartRoutes');
 const productRoutes = require('./routes/productRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 const authRoutes = require('./routes/authRoutes'); // Import the routes file
+const orderRoutes = require('./routes/orderRoutes');
 
 const notFoundMiddleware = require('./middlewares/not-found');
 const errorMiddleware = require('./middlewares/error-handler');
@@ -31,6 +32,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/admin', adminRoutes);
 // Use auth routes
 app.use('/api/user', authRoutes);
+app.use('/api/orders', orderRoutes);
 
 // Error handling middleware (should come last)
 app.use(notFoundMiddleware);
