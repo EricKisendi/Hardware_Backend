@@ -8,8 +8,9 @@ const connectDB = require('./config/db');
 const cartRoutes = require('./routes/cartRoutes');
 const productRoutes = require('./routes/productRoutes');
 const adminRoutes = require('./routes/adminRoutes');
-const authRoutes = require('./routes/authRoutes'); // Import the routes file
+const authRoutes = require('./routes/authRoutes');
 const orderRoutes = require('./routes/orderRoutes');
+const paymentRoutes = require('./routes/paymentRoutes');
 
 const notFoundMiddleware = require('./middlewares/not-found');
 const errorMiddleware = require('./middlewares/error-handler');
@@ -19,7 +20,7 @@ connectDB();
 
 // Conditional seeding logic
 if (process.env.SEED_DB === 'true') {
-    seedDatabase();
+  seedDatabase();
 }
 
 // Middleware
@@ -30,11 +31,11 @@ app.use(cors());
 app.use('/api/cart', cartRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/admin', adminRoutes);
-// Use auth routes
 app.use('/api/user', authRoutes);
 app.use('/api/orders', orderRoutes);
+app.use('/api/payment', paymentRoutes);
 
-// Error handling middleware (should come last)
+// Error handling middleware
 app.use(notFoundMiddleware);
 app.use(errorMiddleware);
 
