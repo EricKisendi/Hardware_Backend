@@ -64,6 +64,7 @@ exports.removeFromCart = async (req, res) => {
     const cart = await Cart.findOne({ user: userId });
     if (!cart) return res.status(404).json({ message: 'Cart not found' });
 
+    // Filter out the product to remove it from the cart
     const filteredItems = cart.items.filter(
       (item) => item.product.toString() !== productId
     );
@@ -72,16 +73,25 @@ exports.removeFromCart = async (req, res) => {
       return res.status(404).json({ message: 'Product not found in cart' });
     }
 
+    // Assign the filtered items back to the cart
     cart.items = filteredItems;
 
-    cart.total = cart.items.reduce(async (acc, item) => {
+    // Recalculate the total using a loop to handle async operations properly
+    let total = 0;
+    for (const item of cart.items) {
       const product = await Product.findById(item.product);
-      return acc + item.quantity * (product ? product.price : 0);
-    }, 0);
+      if (product) {
+        total += item.quantity * product.price;
+      }
+    }
 
+    cart.total = total;
+
+    // Save the updated cart
     await cart.save();
     res.status(200).json({ message: 'Product removed from cart', cart });
   } catch (error) {
+    console.error('Error removing from cart:', error);
     res.status(500).json({ message: 'Error removing from cart', error });
   }
 };
