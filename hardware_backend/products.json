@@ -1,5 +1,309 @@
 [
     {
+        "name": "PPR Pipes & Fittings",
+        "price": 34.99,
+        "category": "plumbing",
+        "description": "High-quality PPR pipes and fittings for plumbing applications.",
+        "stock": 100,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "CPVC Piping & Fittings",
+        "price": 29.99,
+        "category": "plumbing",
+        "description": "Durable CPVC pipes and fittings for hot and cold water supply.",
+        "stock": 80,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "PVC Waste Piping & Fittings",
+        "price": 19.99,
+        "category": "plumbing",
+        "description": "PVC waste pipes and fittings for drainage systems.",
+        "stock": 150,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "UPVC High Pressure Piping & Fittings",
+        "price": 39.99,
+        "category": "plumbing",
+        "description": "High-pressure UPVC pipes and fittings for industrial use.",
+        "stock": 90,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Cables",
+        "price": 49.99,
+        "category": "electrical",
+        "description": "High-quality electrical cables for all wiring needs.",
+        "stock": 200,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Bulb Holders",
+        "price": 5.99,
+        "category": "electrical",
+        "description": "Reliable bulb holders for lighting installations.",
+        "stock": 300,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Bulbs",
+        "price": 3.99,
+        "category": "electrical",
+        "description": "Energy-efficient LED bulbs.",
+        "stock": 500,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Instant Shower",
+        "price": 149.99,
+        "category": "electrical",
+        "description": "Quick heating instant shower for hot water.",
+        "stock": 40,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Boards",
+        "price": 99.99,
+        "category": "carpentry",
+        "description": "Wood boards for carpentry projects.",
+        "stock": 150,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Gypsum Boards & Fittings",
+        "price": 79.99,
+        "category": "carpentry",
+        "description": "Gypsum boards and fittings for interior walls.",
+        "stock": 100,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Wallpaper Glue",
+        "price": 14.99,
+        "category": "glues",
+        "description": "High-strength wallpaper glue for easy wallpaper application.",
+        "stock": 80,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Tangit Glue",
+        "price": 12.99,
+        "category": "glues",
+        "description": "PVC pipe adhesive for plumbing applications.",
+        "stock": 100,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Era Glue",
+        "price": 9.99,
+        "category": "glues",
+        "description": "Multipurpose glue for general household repairs.",
+        "stock": 120,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Conta Glue",
+        "price": 8.99,
+        "category": "glues",
+        "description": "Strong adhesive for various bonding needs.",
+        "stock": 150,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Fevicol Glue",
+        "price": 11.99,
+        "category": "glues",
+        "description": "Trusted glue for woodworking and carpentry projects.",
+        "stock": 200,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Tile & Parquet Glue",
+        "price": 24.99,
+        "category": "glues",
+        "description": "Strong adhesive for tile and parquet flooring.",
+        "stock": 90,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Undercoat Paint",
+        "price": 19.99,
+        "category": "paints",
+        "description": "Primer paint for preparing walls before painting.",
+        "stock": 70,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Wall Paint",
+        "price": 29.99,
+        "category": "paints",
+        "description": "Durable wall paint for interior and exterior surfaces.",
+        "stock": 100,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Ceiling Paint",
+        "price": 24.99,
+        "category": "paints",
+        "description": "Smooth finish ceiling paint for bright white surfaces.",
+        "stock": 85,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Gloss Paint",
+        "price": 34.99,
+        "category": "paints",
+        "description": "High-gloss paint for doors, trim, and furniture.",
+        "stock": 65,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Varnish Paint",
+        "price": 22.99,
+        "category": "paints",
+        "description": "Protective varnish paint for wood surfaces.",
+        "stock": 90,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Gas Fittings",
+        "price": 19.99,
+        "category": "gas",
+        "description": "Reliable gas fittings for connecting gas lines.",
+        "stock": 150,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Gas Regulator",
+        "price": 29.99,
+        "category": "gas",
+        "description": "High-quality gas regulator for controlling gas flow.",
+        "stock": 100,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Curtain Rod",
+        "price": 14.99,
+        "category": "curtains",
+        "description": "Sturdy curtain rod for hanging drapes and curtains.",
+        "stock": 150,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Curtain Bracket",
+        "price": 7.99,
+        "category": "curtains",
+        "description": "Durable bracket to secure curtain rods.",
+        "stock": 200,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Curtain Fittings",
+        "price": 9.99,
+        "category": "curtains",
+        "description": "Complete set of fittings for curtain installation.",
+        "stock": 180,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Normal Cement",
+        "price": 7.99,
+        "category": "cement",
+        "description": "High-quality cement for general construction.",
+        "stock": 500,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Tile Adhesive",
+        "price": 12.99,
+        "category": "cement",
+        "description": "Strong adhesive for fixing tiles securely.",
+        "stock": 300,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Lime",
+        "price": 6.99,
+        "category": "cement",
+        "description": "Versatile lime for mortar and plastering work.",
+        "stock": 400,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Skimming Coat",
+        "price": 14.99,
+        "category": "cement",
+        "description": "Smooth skimming coat for wall finishing.",
+        "stock": 250,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Grouting",
+        "price": 8.99,
+        "category": "cement",
+        "description": "High-performance grout for tiles and masonry.",
+        "stock": 350,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Jembe",
+        "price": 9.99,
+        "category": "home-equipment",
+        "description": "Durable jembe for gardening and digging.",
+        "stock": 100,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Panga",
+        "price": 12.99,
+        "category": "home-equipment",
+        "description": "Sharp panga for cutting and clearing brush.",
+        "stock": 90,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Garden Rake",
+        "price": 14.99,
+        "category": "home-equipment",
+        "description": "Reliable garden rake for clearing leaves and debris.",
+        "stock": 80,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Soft Broom",
+        "price": 5.99,
+        "category": "home-equipment",
+        "description": "Soft broom for indoor sweeping.",
+        "stock": 120,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Hard Broom",
+        "price": 7.99,
+        "category": "home-equipment",
+        "description": "Hard broom for outdoor sweeping tasks.",
+        "stock": 110,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Hand Pump",
+        "price": 19.99,
+        "category": "home-equipment",
+        "description": "Manual hand pump for water and air.",
+        "stock": 60,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Pruning Scissors",
+        "price": 14.99,
+        "category": "home-equipment",
+        "description": "Sharp pruning scissors for gardening tasks.",
+        "stock": 70,
+        "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
         "name": "Cordless Drill",
         "price": 129.99,
         "category": "power-tools",
