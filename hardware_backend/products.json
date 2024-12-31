@@ -5,7 +5,8 @@
         "category": "plumbing",
         "description": "High-quality PPR pipes and fittings for plumbing applications.",
         "stock": 100,
-        "imageUrl": "https://via.placeholder.com/300"
+        "imageUrl": "https://via.placeholder.com/300",
+        "isFeatured": true
     },
     {
         "name": "CPVC Piping & Fittings",
@@ -13,7 +14,8 @@
         "category": "plumbing",
         "description": "Durable CPVC pipes and fittings for hot and cold water supply.",
         "stock": 80,
-        "imageUrl": "https://via.placeholder.com/300"
+        "imageUrl": "https://via.placeholder.com/300",
+        "isFeatured": true
     },
     {
         "name": "PVC Waste Piping & Fittings",
@@ -21,7 +23,8 @@
         "category": "plumbing",
         "description": "PVC waste pipes and fittings for drainage systems.",
         "stock": 150,
-        "imageUrl": "https://via.placeholder.com/300"
+        "imageUrl": "https://via.placeholder.com/300",
+        "isFeatured": true
     },
     {
         "name": "UPVC High Pressure Piping & Fittings",
@@ -29,7 +32,8 @@
         "category": "plumbing",
         "description": "High-pressure UPVC pipes and fittings for industrial use.",
         "stock": 90,
-        "imageUrl": "https://via.placeholder.com/300"
+        "imageUrl": "https://via.placeholder.com/300",
+        "isFeatured": true
     },
     {
         "name": "Cables",
